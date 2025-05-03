@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Color Path",
+    "slug": "color-path-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png", // TODO: Replace with actual icon
+    "userInterfaceStyle": "automatic", // Respects system light/dark mode
+    // Removed splash screen config to avoid missing asset error
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.colorpath" // TODO: Replace with your bundle ID
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png", // TODO: Replace
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.colorpath" // TODO: Replace with your package name
+    },
+    "web": {
+      "favicon": "./assets/favicon.png" // TODO: Replace
+    },
+    "plugins": [
+      // Placeholder for AdMob configuration (using deprecated package)
+      [
+        "expo-ads-admob",
+        {
+          "userTrackingPermission": false // Or true if you handle ATT prompt
+        }
+      ],
+      // Placeholder for Firebase configuration (using deprecated packages)
+      // Requires google-services.json (Android) and GoogleService-Info.plist (iOS)
+      // "@react-native-firebase/app", // Might be needed depending on final Firebase setup
+      // "@react-native-firebase/analytics",
+      // "@react-native-firebase/auth",
+      // "@react-native-firebase/firestore"
+      // NOTE: The expo-firebase-* packages are deprecated. Consider using the official
+      // @react-native-firebase/* packages with custom development builds (EAS Build)
+      // or the official Firebase Web SDK for web/Expo Go compatibility.
+    ],
+    "extra": {
+      // Custom configuration accessible via Constants.expoConfig.extra
+      "eas": {
+        "projectId": "" // TODO: Add your EAS project ID if using EAS Build
+      }
+    }
+    // "jsEngine": "hermes" // Hermes is default in newer Expo SDKs
+  }
+}
+

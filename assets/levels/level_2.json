@@ -1,0 +1,11 @@
+{
+  "level": 2,
+  "gridSize": { "rows": 3, "cols": 3 },
+  "dots": [
+    { "id": 0, "color": "#FF0000", "start": { "row": 0, "col": 0 }, "end": { "row": 2, "col": 2 } },
+    { "id": 1, "color": "#0000FF", "start": { "row": 0, "col": 2 }, "end": { "row": 2, "col": 0 } },
+    { "id": 2, "color": "#00FF00", "start": { "row": 1, "col": 0 }, "end": { "row": 1, "col": 2 } }
+  ],
+  "obstacles": []
+}
+
